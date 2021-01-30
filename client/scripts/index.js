@@ -8,4 +8,4 @@ function initiateVideos () {
   }
 }
 
-initiateVideos();
+// initiateVideos();
