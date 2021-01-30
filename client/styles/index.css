@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(37, 37, 37);
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 80px 5fr;
+}
+
+#navigation {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  row-gap: 1.2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 1em 1em;
+  font-size: 10px;
+  background-color: rgb(37, 37, 37);
+  color: rgb(167, 167, 167);
+}
+
+#search {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  justify-content: center;
+
+  padding: 15px 0px;
+  background-color: rgb(37, 37, 37);
+}
+
+#related-searches {
+  display: flex;
+  padding: .5em 1em;
+  background-color: rgb(43, 43, 43);
+  border-top: 1px solid rgb(59, 59, 59);
+  /* display: grid;
+  grid-template-columns: repeat(5, auto); */
+}
+
+#latest-videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  row-gap: 1.3em;
+  justify-items: center;
+
+  padding: 1em .5em;
+  border-top: 1px solid rgb(59, 59, 59);
+  background-color: rgb(22, 22, 22);
+}
+
+.video {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+}
+
+.video-user-title {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+
+  padding: .5em 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.video-user-details {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+
+.video-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  font-size: 13px;
+  color: rgb(167, 167, 167);
+}
+
+/* GRID INFO ABOVE */
+
+i {
+  font-size: 22px;
+}
+
+
+#toggle-button {
+  margin: .6em auto;
+  color: white;
+}
+
+.toggle-icon {
+  font-size: 17px;
+}
+
+.nav-icon {
+  margin: .5em auto;
+  font-size: 12px;
+}
+
+.nav-option {
+  margin: 1.5em auto;
+}
+
+input {
+  width: 350px;
+  height: 30px;
+  border: 1px solid rgb(59, 59, 59);
+  background-color: rgb(22, 22, 22);
+}
+
+button {
+  text-decoration: none;
+  border: none;
+}
+
+.search-button {
+  margin: none;
+  padding: .1em .6em;
+  font-size: 16px;
+}
+
+.search-option {
+  margin: auto .6em;
+  padding: 7px 5px;
+  border-radius: 20px;
+  border: 1px solid rgb(92, 92, 92);
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(73, 73, 73);
+}
+
+.option {
+  padding: 3px 9px;
+}
+
+.video-image {
+  width: 255px;
+}
+
+.user-image {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.detail-entry {
+  padding: 5px 5px;
+}
